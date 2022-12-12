@@ -1,7 +1,17 @@
 # <strong>Alex Kernot - Portfolio </strong>
 ---
 ## **About me:**
-I am a self taught programmer who
+I am a self-taught programmer who specialises in C#/C++, and I will be going to university in 2023 for either computer science or software engineering. I have intermediate knowledge in both and have spent the past few years familiarizing myself with the languages after learning Java. I have some knowledge in Python and would be open to learn a new language for a long term and sufficiently interesting project.
+
+My non-coding hobbies are coffee making, photography, reading, and general technology. I like experimenting with unknown features of the camera, like long exposure shooting and HDR for stunning night-time and sunset photos. I also particularly enjoy keeping up to date with the current tech news and exploring its new innovations.
+
+My professional experience primarily comes from volunteering with the SA Country Fire Service. I am on call 24/7 for a wide range of incidences including:
+*	Assist and Rescue, involving vehicle accidents, rescue from heights, assisting SAAS, and more.
+*	Grass and Structure fires; offensive and defensive fire suppression.
+*	Disaster Response; dealing with flooding, lightning, strong winds, and other acts of God. </br>
+
+*While I am on call 24/7, I choose what I respond to and at what times so it will not impact my work responsibilities.*
+
 ___
 ## **Projects:**
 
