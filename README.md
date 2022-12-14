@@ -61,7 +61,7 @@ public static decimal Modulo(decimal a, decimal b)
 }
 ```
 
-**See full code at https://github.com/ScarletMira/Math**
+**See full code at [https://github.com/AlexKernot/Math](https://github.com/AlexKernot/Math)**
 
 ### Minesweeper
 **Language: C++ </br>**
@@ -129,7 +129,7 @@ if (numberInSquare == 0) {
 ...
 ```
 
-**See full code at https://github.com/ScarletMira/Minesweeper**
+**See full code at [https://github.com/AlexKernot/Minesweeper](https://github.com/AlexKernot/Minesweeper)**
 ___
 ## **Contact me**
 
