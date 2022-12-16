@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="stylesheet.css">
+
 # <strong>Alex Kernot - Portfolio </strong>
 ---
 ## **About me:**
@@ -130,7 +132,8 @@ if (numberInSquare == 0) {
 ```
 
 **See full code at [https://github.com/AlexKernot/Minesweeper](https://github.com/AlexKernot/Minesweeper)**
-___
+<hr>
+
 ## **Contact me**
 
 **You can contact me at the following:**
