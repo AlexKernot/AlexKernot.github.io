@@ -4,6 +4,7 @@ body {
 
 h1 {
   color: #adbac7;
+  border-color: #373e47;
 }
 
 h2 {
@@ -24,4 +25,51 @@ ul {
 
 hr {
   color: #444c56;
+}
+
+.highlight {
+  background-color: #2d333b;
+}
+
+.c1 {
+  color: #76828e;
+}
+
+.k {
+  color: #ca6468;
+  }
+
+.kt {
+  color: #ca6468;
+}
+
+.nf {
+  color: #bea8e0;
+}
+
+.p {
+  color: #9ebac7;
+}
+
+.m {
+  color: #4c93ef;
+}
+.mi {
+  color: #609af8;
+}
+
+.o {
+  color: #a9b4bf;
+}
+
+.s {
+  color: #85b6de;
+}
+
+.nb {
+  color: #5e9ad4;
+}
+
+.n {
+  color: #bea8e0;
 }
