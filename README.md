@@ -3,17 +3,14 @@
 # <strong>Alex Kernot - Portfolio </strong>
 ---
 ## **About me:**
-I am a self-taught programmer who specialises in C#/C++, and I will be going to university in 2023 for either computer science or software engineering. I have intermediate knowledge in both and have spent the past few years familiarizing myself with the languages after learning Java. I have some knowledge in Python and would be open to learn a new language for a long term and sufficiently interesting project.
+I am a self-taught programmer who specialises in C/C++, I am studying a computer science degree at Adelaide University and I am a student at the 42 Adelaide coding school. I have intermediate knowledge in C and have spent the past few years familiarizing myself with the language through personal projects. I have basic knowledge of Python and would be open to learn a new language.
 
-My non-coding hobbies are coffee making, photography, reading, and general technology. I like experimenting with unknown features of the camera, like long exposure shooting and HDR for stunning night-time and sunset photos. I also particularly enjoy keeping up to date with the current tech news and exploring its new innovations.
+My non-coding hobbies are coffee making, photography, reading, and general technology. I enjoy experimenting with unfamiliar features of cameras, like long exposure shooting and HDR for stunning night-time and sunset photos. I also particularly enjoy keeping up to date with the new tech innovations and I'm always excited to get the oppertunity to try things.
 
 My professional experience primarily comes from volunteering with the SA Country Fire Service. I am on call 24/7 for a wide range of incidences including:
 *	Assist and Rescue, involving vehicle accidents, rescue from heights, assisting SAAS, and more.
 *	Grass and Structure fires; offensive and defensive fire suppression.
 *	Disaster Response; dealing with flooding, lightning, strong winds, and other acts of God.<br />
-
-*While I am on call 24/7, I choose what I respond to and at what times so it will not impact my work responsibilities.*
-
 ___
 ## **Projects:**
 
@@ -21,7 +18,7 @@ ___
 **Language: C#<br />**
 **Contribution: Solo project<br />**
 
-With the goal of creating a fully functioning scientific calculator without using standard libraries (Except for console input and output,) this project has required me to learn new skills, algorithms and collaborate to understand unfamiliar math concepts.<br />
+With the goal of creating a fully functioning scientific calculator without using standard libraries (Except for console io and regex,) this project has required me to learn new skills, algorithms and collaborate to understand unfamiliar math concepts.<br />
 -	Process a complex string of calculations while following order of operation rules.<br />
   -	Uses shunting yard and post stack evaluators for interpretation
 -	Calculate the basic trigonometric functions through an approximation correct to 12 decimal places
@@ -138,6 +135,7 @@ if (numberInSquare == 0) {
 
 **You can contact me at the following:**
 - Email - alex.kernot04@gmail.com<br />
+- Linkedin - [Alex Kernot](https://www.linkedin.com/in/alexkernot/)<br />
 - Instagram - [alex_kernot](https://www.instagram.com/alex_kernot/)
 
 ___
