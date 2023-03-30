@@ -10,64 +10,17 @@ My non-coding hobbies are coffee making, photography, reading, and general techn
 My professional experience primarily comes from volunteering with the SA Country Fire Service. I am on call 24/7 for a wide range of incidences including:
 *	Assist and Rescue, involving vehicle accidents, rescue from heights, assisting SAAS, and more.
 *	Grass and Structure fires; offensive and defensive fire suppression.
-*	Disaster Response; dealing with flooding, lightning, strong winds, and other acts of God.<br />
-___
+*	Disaster Response; dealing with flooding, lightning, strong winds, and other acts of God.
+<hr />
+
 ## **Projects:**
-
-### Math
-**Language: C#<br />**
-**Contribution: Solo project<br />**
-
-With the goal of creating a fully functioning scientific calculator without using standard libraries (Except for console io and regex,) this project has required me to learn new skills, algorithms and collaborate to understand unfamiliar math concepts.<br />
--	Process a complex string of calculations while following order of operation rules.<br />
-  -	Uses shunting yard and post stack evaluators for interpretation
--	Calculate the basic trigonometric functions through an approximation correct to 12 decimal places
--	Calculate LCM and GCD
--	Basic arithmetic operations including exponentials.
-
-At a glance:
-```csharp
-// Sine.cs
-
-public static decimal Sin(decimal n, int pow = 11)
-{
-    if (n > pi || n < -pi)
-        // Brings n inside domain {pi > n > -pi}
-        n = Functions.Modulo(n + pi, 2 * pi) - pi;
-
-    decimal sinx = 0;
-    decimal num = 0;
-
-    for (int i = 0; i < pow; i++)
-    {
-        // num = -1^i * n^(2i+1) / (2i+1)!
-        num = (Functions.Exponents(-1, i) * Functions.Exponents(n, 2 * i + 1)) / (Functions.Factorial(2 * i + 1));
-        sinx += num;
-    }
-
-    return sinx;
-}
-
-// Modulo.cs
-
-public static decimal Modulo(decimal a, decimal b)
-{
-    b = Functions.Absolute(b);
-
-    // Euclidian modulo: r = a - |b| floor(a/|b|)
-    decimal r = a - b * Functions.Floor(a / b);
-    return r;
-}
-```
-
-**See full code at [https://github.com/AlexKernot/Math](https://github.com/AlexKernot/Math)**
 
 ### Minesweeper
 **Language: C++<br />**
 **Contribution: Solo project<br />**
 
-A complete recreation of the classic game Minesweeper, using SFML. This taught me the importance of using minimal memory and how to use pointers and objects to increase the efficiency of operations on multi-dimensional arrays
-Capabilities:
+A complete recreation of the classic game Minesweeper, using SFML. This taught me the importance of using minimal memory and how to use pointers and objects to increase the efficiency of operations on multi-dimensional arrays, along with the basic principles of object oriented programming.
+<br /><br />**Capabilities:**
 -	Timer
 -	Bomb counter
 -	Flood fill when cascade is activated (revealing a 0 square)
@@ -129,6 +82,55 @@ if (numberInSquare == 0) {
 ```
 
 **See full code at [https://github.com/AlexKernot/Minesweeper](https://github.com/AlexKernot/Minesweeper)**
+
+### Math
+**Language: C#<br />**
+**Contribution: Solo project<br />**
+
+With the goal of creating a fully functioning scientific calculator without using standard libraries (Except for console io and regex,) this project has required me to learn new skills, algorithms and collaborate to understand unfamiliar math concepts.
+<br /><br />**Capabilities:**
+-	Process a complex string of calculations while following order of operation rules.<br />
+  -	Uses shunting yard and post stack evaluators for interpretation
+-	Calculate the basic trigonometric functions through an approximation correct to 12 decimal places
+-	Calculate LCM and GCD
+-	Basic arithmetic operations including exponentials.
+
+At a glance:
+```csharp
+// Sine.cs
+
+public static decimal Sin(decimal n, int pow = 11)
+{
+    if (n > pi || n < -pi)
+        // Brings n inside domain {pi > n > -pi}
+        n = Functions.Modulo(n + pi, 2 * pi) - pi;
+
+    decimal sinx = 0;
+    decimal num = 0;
+
+    for (int i = 0; i < pow; i++)
+    {
+        // num = -1^i * n^(2i+1) / (2i+1)!
+        num = (Functions.Exponents(-1, i) * Functions.Exponents(n, 2 * i + 1)) / (Functions.Factorial(2 * i + 1));
+        sinx += num;
+    }
+
+    return sinx;
+}
+
+// Modulo.cs
+
+public static decimal Modulo(decimal a, decimal b)
+{
+    b = Functions.Absolute(b);
+
+    // Euclidian modulo: r = a - |b| floor(a/|b|)
+    decimal r = a - b * Functions.Floor(a / b);
+    return r;
+}
+```
+
+**See full code at [https://github.com/AlexKernot/Math](https://github.com/AlexKernot/Math)**
 <hr>
 
 ## **Contact me**
