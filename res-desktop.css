@@ -1,0 +1,58 @@
+@media (orientation: landscape) {
+
+body {
+	background-color: #1c1c1c;
+	font-size: 12pt;
+}
+
+address {
+	justify-content: center;
+
+}
+
+.contact {
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#resume {
+	padding: 2% 5% 2%;
+	width: 50%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.resume-section-item {
+	flex-direction: row;
+}
+
+.resume-item-title {
+	font-weight: bold;
+	max-width: 50%;
+}
+
+.resume-project-info {
+	margin-left: 5%;
+}
+
+.resume-item-date {
+	font-weight: bold;
+}
+
+.resume-item-info {
+	font-style: italic;
+}
+
+.resume-item-location {
+	font-style: italic;
+}
+
+.skill {
+	flex-direction: row;
+}
+
+footer {
+	color: #efefef;
+}
+
+}

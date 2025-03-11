@@ -1,0 +1,103 @@
+* {
+	font-family: "Noto Serif", serif;
+}
+
+body {
+	background-color: #efefef;
+}
+
+h1{
+	font-weight: normal;
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 32pt;
+	font-family: "Noto Serif"
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.resume-section h2 {
+	margin: 0;
+}
+
+.resume-section hr {
+	margin: 0;
+}
+
+.resume-section table {
+	width: 100%;
+}
+
+.resume-section ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+.resume-section-item-list li {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 3%;
+	list-style-type: disc;
+}
+
+.resume-project-heading {
+	display: flex;
+	max-width: 100%;
+	flex-grow: 2;
+}
+
+.resume-section-item {
+	display: flex;
+	justify-content: space-between;
+}
+
+.resume-section-item {
+	width: 100%;
+}
+
+#resume {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5%;
+	background-color: #efefef;
+}
+
+#skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+.skill {
+	display: flex;
+}
+
+.skill-heading {
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+address {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+footer {
+	font-size: 12pt;
+	text-align: center;
+}

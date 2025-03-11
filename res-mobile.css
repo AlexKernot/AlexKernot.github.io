@@ -1,0 +1,72 @@
+@media (orientation: portrait) {
+
+* {
+	font-size: 16pt;
+}
+
+h1 {
+	margin-top: 2%;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 24pt;
+}
+
+address {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	justify-content: space-evenly;
+}
+
+.contact-text {
+	display: none;
+}
+
+.contact i {
+	font-size: 30pt;
+}
+
+.resume-section-item {
+	flex-direction: column;
+}
+
+.resume-item-title {
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+.resume-item-date {
+	font-weight: 600;
+	margin-left: 3%;
+}
+
+.resume-project-heading {
+	flex-direction: column;
+}
+
+.resume-project-info {
+	margin-left: 3%;
+	font-style: italic;
+}
+
+.resume-item-info {
+	margin-left: 3%;
+}
+
+.resume-item-location {
+	font-style: italic;
+	margin-left: 3%;
+	color: #555;
+}
+
+.skill {
+	flex-direction: column;
+}
+
+footer {
+	color: #555;
+}
+
+}
